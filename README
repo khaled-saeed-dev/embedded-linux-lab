@@ -1,0 +1,95 @@
+# Embedded Linux Lab
+
+My hands-on journey to become strong in Embedded Linux by the end of this year.
+
+## Goal
+
+Build real experience in:
+
+- Embedded Linux fundamentals
+- Linux command line and system administration
+- GPIO / UART / SPI / I2C basics
+- Cross-compiling applications for ARM
+- Buildroot
+- Yocto
+- Docker on embedded Linux
+- Debugging and performance analysis
+- End-to-end embedded projects
+
+Target: study and practice **10 hours per week** and finish the year with a strong practical portfolio.
+
+## Current Setup
+
+- Board: Raspberry Pi 3
+- OS: Ubuntu 22.04 64-bit
+- SSH: `192.168.0.50`
+
+## Available Hardware
+
+- Raspberry Pi 3
+- 8-channel logic analyzer
+- Arduino board
+- STM32 Discovery board
+- LEDs
+- 7-segment display
+- Potentiometers
+- Bluetooth module
+- DHT sensor
+- Motor speed encoder
+- LDR light sensor
+
+## Why This Repo Exists
+
+This repo is my engineering notebook and project archive.
+
+I will use it to store:
+
+- weekly notes
+- commands that worked
+- errors and fixes
+- wiring notes
+- boot logs
+- project code
+- experiment results
+- photos and screenshots
+- lessons learned
+
+By the end of the year, this repo should show clear progress from beginner to capable embedded Linux developer.
+
+## Learning Strategy
+
+I will learn in stages:
+
+1. Linux basics on Raspberry Pi
+2. GPIO and simple hardware control
+3. Serial communication with Arduino / STM32
+4. Sensor integration
+5. Logic analyzer usage for debugging
+6. Cross-compiling C/C++ programs
+7. Custom Linux images with Buildroot
+8. Embedded Linux development with Yocto
+9. Docker on ARM / embedded Linux
+10. Debugging, tracing, and performance tuning
+11. Final capstone project
+
+## Repo Structure
+
+```text
+embedded-linux-lab/
+  README.md
+  notes/
+    week-01.md
+    week-02.md
+  logs/
+    boot/
+    dmesg/
+  wiring/
+  photos/
+  projects/
+    gpio-led/
+    uart-sensor-bridge/
+    spi-lab/
+    buildroot-pi/
+    yocto-pi/
+    docker-telemetry/
+```
